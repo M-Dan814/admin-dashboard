@@ -105,9 +105,46 @@ label:hover {
 }
 
 .sidebar {
-  background-color: aqua;
+  background-color: rgb(157, 163, 247);
   grid-column: 1/2;
   grid-row: 1/3;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 3px;
+  color: white;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+}
+
+.locations {
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    gap: 5px;
+}
+
+.secondary-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.secondary {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    gap: 5px;
 }
 
 .main {
