@@ -1,6 +1,6 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
 .container {
@@ -14,47 +14,94 @@
   grid-column: 2/3;
   grid-row: 1/2;
   background-color: rgb(205, 252, 252);
+  padding: 16px;
 }
 
 .head {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .search {
-    display: flex;
-    align-items: center;
-    width: 60%;
+  display: flex;
+  align-items: center;
+  width: 60%;
 }
 
 #search {
-    width: 80%;
-    height: 30px;
-    border-radius: 5px;
-    border: 0px;
-    background-color: rgb(193, 213, 255);
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: rgb(193, 213, 255);
 }
 
 .account {
-    display: flex;
-    width: 26%;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  width: 26%;
+  align-items: center;
+  justify-content: space-between;
 }
 
-
+label:hover {
+  cursor: pointer;
+}
 
 .pfp-small {
   border-radius: 100px;
 }
 
-.notif:hover {
-    cursor: pointer;
-    transform: scale(1.1);
+.notification:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .pfp-small:hover {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.greeting {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.pfp-large {
+  border-radius: 100px;
+}
+
+.small-text {
+  font-size: 0.8rem;
+}
+
+.large-text {
+  font-size: 1.4rem;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  align-items: center;
+}
+
+.nav-button {
+  background-color: rgb(75, 75, 255);
+  color: white;
+  padding: 13px;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 8px;
+}
+
+.nav-button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .sidebar {
