@@ -232,6 +232,8 @@ ul {
 }
 
 .trending-item {
+    display: flex;
+    align-items: center;
     position: relative;
     margin-bottom: 8px;
 }
